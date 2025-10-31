@@ -584,9 +584,9 @@ discord-api-types@^0.38.1, discord-api-types@^0.38.16, discord-api-types@^0.38.3
   version "0.38.31"
   resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.31.tgz#023c7f18662dc4a44a22798300f44e4b148cafb1"
 
-discord.js@^14.24.1:
-  version "14.24.1"
-  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-14.24.1.tgz#b2d088fbc1e43940a611ec9d5b38e6f864407ea3"
+discord.js@^14.24.2:
+  version "14.24.2"
+  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-14.24.2.tgz#070519dd401cd2cf1f30f86a20d227999b13f610"
   dependencies:
     "@discordjs/builders" "^1.13.0"
     "@discordjs/collection" "1.5.3"
