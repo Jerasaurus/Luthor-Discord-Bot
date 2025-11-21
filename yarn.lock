@@ -273,9 +273,9 @@
   version "7.0.0"
   resolved "https://registry.npmjs.org/@types/webidl-conversions/-/webidl-conversions-7.0.0.tgz"
 
-"@types/whatwg-url@^11.0.2":
-  version "11.0.4"
-  resolved "https://registry.yarnpkg.com/@types/whatwg-url/-/whatwg-url-11.0.4.tgz#ffed0dc8d89d91f62e3f368fcbda222a487c4f63"
+"@types/whatwg-url@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@types/whatwg-url/-/whatwg-url-13.0.0.tgz#2b11e32772fd321c0dedf4d655953ea8ce587b2a"
   dependencies:
     "@types/webidl-conversions" "*"
 
@@ -463,9 +463,9 @@ braces@^3.0.3, braces@~3.0.2:
   dependencies:
     fill-range "^7.1.1"
 
-bson@^6.10.4:
-  version "6.10.4"
-  resolved "https://registry.yarnpkg.com/bson/-/bson-6.10.4.tgz#d530733bb5bb16fb25c162e01a3344fab332fd2b"
+bson@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/bson/-/bson-7.0.0.tgz#2ee7ac8296d61739a8d3d1799724a10d9f8afa8d"
 
 bytes@3.1.2, bytes@^3.1.2:
   version "3.1.2"
@@ -562,7 +562,7 @@ data-uri-to-buffer@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.0.tgz"
 
-debug@4.x, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4, debug@^4.3.5, debug@^4.4.0:
+debug@^4.3.1, debug@^4.3.2, debug@^4.3.4, debug@^4.3.5, debug@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.4.0.tgz#2b3f2aea2ffeb776477460267377dc8710faba8a"
   dependencies:
@@ -1042,9 +1042,9 @@ json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz"
 
-kareem@2.6.3:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/kareem/-/kareem-2.6.3.tgz#23168ec8ffb6c1abfd31b7169a6fb1dd285992ac"
+kareem@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/kareem/-/kareem-3.0.0.tgz#b1abcd504a01d45d712d311bf2178ce2bc0081bb"
 
 keyv@^4.5.4:
   version "4.5.4"
@@ -1130,30 +1130,29 @@ minimatch@^9.0.4:
   dependencies:
     brace-expansion "^2.0.1"
 
-mongodb-connection-string-url@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/mongodb-connection-string-url/-/mongodb-connection-string-url-3.0.2.tgz#e223089dfa0a5fa9bf505f8aedcbc67b077b33e7"
+mongodb-connection-string-url@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/mongodb-connection-string-url/-/mongodb-connection-string-url-7.0.0.tgz#aad7291d191c52e3b5e2765eb9d218b6efcad655"
   dependencies:
-    "@types/whatwg-url" "^11.0.2"
-    whatwg-url "^14.1.0 || ^13.0.0"
+    "@types/whatwg-url" "^13.0.0"
+    whatwg-url "^14.1.0"
 
-mongodb@~6.20.0:
-  version "6.20.0"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-6.20.0.tgz#5212dcf512719385287aa4574265352eefb01d8e"
+mongodb@~7.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-7.0.0.tgz#33b381dc9fdca208a38ea03340d57244c776573f"
   dependencies:
     "@mongodb-js/saslprep" "^1.3.0"
-    bson "^6.10.4"
-    mongodb-connection-string-url "^3.0.2"
+    bson "^7.0.0"
+    mongodb-connection-string-url "^7.0.0"
 
-mongoose@^8.20.0:
-  version "8.20.0"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.20.0.tgz#eae3e1863dd882cfa2bf71daa22dc17043d9e396"
+mongoose@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-9.0.0.tgz#193bcf978a13852f708d6a29fe9764c1d37ba1b4"
   dependencies:
-    bson "^6.10.4"
-    kareem "2.6.3"
-    mongodb "~6.20.0"
+    kareem "3.0.0"
+    mongodb "~7.0"
     mpath "0.9.0"
-    mquery "5.0.0"
+    mquery "6.0.0"
     ms "2.1.3"
     sift "17.1.3"
 
@@ -1161,11 +1160,9 @@ mpath@0.9.0:
   version "0.9.0"
   resolved "https://registry.npmjs.org/mpath/-/mpath-0.9.0.tgz"
 
-mquery@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/mquery/-/mquery-5.0.0.tgz#a95be5dfc610b23862df34a47d3e5d60e110695d"
-  dependencies:
-    debug "4.x"
+mquery@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/mquery/-/mquery-6.0.0.tgz#ef6d744619ff13368c1b137d09a7adc5530fce9e"
 
 ms@2.1.3, ms@^2.1.3:
   version "2.1.3"
@@ -1575,7 +1572,7 @@ webidl-conversions@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz"
 
-"whatwg-url@^14.1.0 || ^13.0.0":
+whatwg-url@^14.1.0:
   version "14.2.0"
   resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-14.2.0.tgz#4ee02d5d725155dae004f6ae95c73e7ef5d95663"
   dependencies:
