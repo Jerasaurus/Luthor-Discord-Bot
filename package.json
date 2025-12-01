@@ -24,7 +24,7 @@
     "discord-api-types": "^0.38.34",
     "discord.js": "^14.25.1",
     "dotenv": "^17.2.3",
-    "express": "^5.1.0",
+    "express": "^5.2.0",
     "mongoose": "^9.0.0",
     "node-fetch": "^3.3.2",
     "parse-duration": "^2.1.4",
