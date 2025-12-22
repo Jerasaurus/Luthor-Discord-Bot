@@ -1222,9 +1222,9 @@ parent-module@^1.0.0:
   dependencies:
     callsites "^3.0.0"
 
-parse-duration@^2.1.4:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/parse-duration/-/parse-duration-2.1.4.tgz#02918736726f657eaf70b52bb8da7910316df51d"
+parse-duration@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/parse-duration/-/parse-duration-2.1.5.tgz#968d15cce6931051568cb40445389299ecf00133"
 
 parse-ms@^4.0.0:
   version "4.0.0"
