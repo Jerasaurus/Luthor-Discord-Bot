@@ -296,14 +296,14 @@
     natural-compare "^1.4.0"
     ts-api-utils "^2.4.0"
 
-"@typescript-eslint/parser@^8.52.0":
-  version "8.52.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-8.52.0.tgz#9fae9f5f13ebb1c8f31a50c34381bfd6bf96a05f"
+"@typescript-eslint/parser@^8.53.0":
+  version "8.53.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-8.53.0.tgz#d8bed6f12dc74e03751e5f947510ff2b165990c6"
   dependencies:
-    "@typescript-eslint/scope-manager" "8.52.0"
-    "@typescript-eslint/types" "8.52.0"
-    "@typescript-eslint/typescript-estree" "8.52.0"
-    "@typescript-eslint/visitor-keys" "8.52.0"
+    "@typescript-eslint/scope-manager" "8.53.0"
+    "@typescript-eslint/types" "8.53.0"
+    "@typescript-eslint/typescript-estree" "8.53.0"
+    "@typescript-eslint/visitor-keys" "8.53.0"
     debug "^4.4.3"
 
 "@typescript-eslint/project-service@8.52.0":
@@ -314,6 +314,14 @@
     "@typescript-eslint/types" "^8.52.0"
     debug "^4.4.3"
 
+"@typescript-eslint/project-service@8.53.0":
+  version "8.53.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/project-service/-/project-service-8.53.0.tgz#327c67c61c16a1c8b12a440b0779b41eb77cc7df"
+  dependencies:
+    "@typescript-eslint/tsconfig-utils" "^8.53.0"
+    "@typescript-eslint/types" "^8.53.0"
+    debug "^4.4.3"
+
 "@typescript-eslint/scope-manager@8.52.0":
   version "8.52.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-8.52.0.tgz#9884ff690fad30380ccabfb08af1ac200af6b4e5"
@@ -321,9 +329,20 @@
     "@typescript-eslint/types" "8.52.0"
     "@typescript-eslint/visitor-keys" "8.52.0"
 
+"@typescript-eslint/scope-manager@8.53.0":
+  version "8.53.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-8.53.0.tgz#f922fcbf0d42e72f065297af31779ccf19de9a97"
+  dependencies:
+    "@typescript-eslint/types" "8.53.0"
+    "@typescript-eslint/visitor-keys" "8.53.0"
+
 "@typescript-eslint/tsconfig-utils@8.52.0", "@typescript-eslint/tsconfig-utils@^8.52.0":
   version "8.52.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.52.0.tgz#0296751c22ed05c83787a6eaec65ae221bd8b8ed"
+
+"@typescript-eslint/tsconfig-utils@8.53.0", "@typescript-eslint/tsconfig-utils@^8.53.0":
+  version "8.53.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.53.0.tgz#105279d7969a7abdc8345cc9c57cff83cf910f8f"
 
 "@typescript-eslint/type-utils@8.52.0":
   version "8.52.0"
@@ -335,9 +354,13 @@
     debug "^4.4.3"
     ts-api-utils "^2.4.0"
 
-"@typescript-eslint/types@8.52.0", "@typescript-eslint/types@^8.52.0":
+"@typescript-eslint/types@8.52.0":
   version "8.52.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-8.52.0.tgz#1eb0a16b324824bc23b89d109a267c38c9213c4a"
+
+"@typescript-eslint/types@8.53.0", "@typescript-eslint/types@^8.52.0", "@typescript-eslint/types@^8.53.0":
+  version "8.53.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-8.53.0.tgz#1adcad3fa32bc2c4cbf3785ba07a5e3151819efb"
 
 "@typescript-eslint/typescript-estree@8.52.0":
   version "8.52.0"
@@ -347,6 +370,20 @@
     "@typescript-eslint/tsconfig-utils" "8.52.0"
     "@typescript-eslint/types" "8.52.0"
     "@typescript-eslint/visitor-keys" "8.52.0"
+    debug "^4.4.3"
+    minimatch "^9.0.5"
+    semver "^7.7.3"
+    tinyglobby "^0.2.15"
+    ts-api-utils "^2.4.0"
+
+"@typescript-eslint/typescript-estree@8.53.0":
+  version "8.53.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-8.53.0.tgz#7805b46b7a8ce97e91b7bb56fc8b1ba26ca8ef52"
+  dependencies:
+    "@typescript-eslint/project-service" "8.53.0"
+    "@typescript-eslint/tsconfig-utils" "8.53.0"
+    "@typescript-eslint/types" "8.53.0"
+    "@typescript-eslint/visitor-keys" "8.53.0"
     debug "^4.4.3"
     minimatch "^9.0.5"
     semver "^7.7.3"
@@ -367,6 +404,13 @@
   resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-8.52.0.tgz#50361c48a6302676230fe498f80f6decce4bf673"
   dependencies:
     "@typescript-eslint/types" "8.52.0"
+    eslint-visitor-keys "^4.2.1"
+
+"@typescript-eslint/visitor-keys@8.53.0":
+  version "8.53.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-8.53.0.tgz#9a785664ddae7e3f7e570ad8166e48dbc9c6cf02"
+  dependencies:
+    "@typescript-eslint/types" "8.53.0"
     eslint-visitor-keys "^4.2.1"
 
 "@vladfrangu/async_event_emitter@^2.2.4", "@vladfrangu/async_event_emitter@^2.4.6":
