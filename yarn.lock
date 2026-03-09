@@ -76,13 +76,13 @@
   version "4.12.2"
   resolved "https://registry.yarnpkg.com/@eslint-community/regexpp/-/regexpp-4.12.2.tgz#bccdf615bcf7b6e8db830ec0b8d21c9a25de597b"
 
-"@eslint/config-array@^0.23.2":
-  version "0.23.2"
-  resolved "https://registry.yarnpkg.com/@eslint/config-array/-/config-array-0.23.2.tgz#db85beeff7facc685a5775caacb1c845669b9470"
+"@eslint/config-array@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@eslint/config-array/-/config-array-0.23.3.tgz#3f4a93dd546169c09130cbd10f2415b13a20a219"
   dependencies:
-    "@eslint/object-schema" "^3.0.2"
+    "@eslint/object-schema" "^3.0.3"
     debug "^4.3.1"
-    minimatch "^10.2.1"
+    minimatch "^10.2.4"
 
 "@eslint/config-helpers@^0.5.2":
   version "0.5.2"
@@ -90,21 +90,21 @@
   dependencies:
     "@eslint/core" "^1.1.0"
 
-"@eslint/core@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@eslint/core/-/core-1.1.0.tgz#51f5cd970e216fbdae6721ac84491f57f965836d"
+"@eslint/core@^1.1.0", "@eslint/core@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@eslint/core/-/core-1.1.1.tgz#450f3d2be2d463ccd51119544092256b4e88df32"
   dependencies:
     "@types/json-schema" "^7.0.15"
 
-"@eslint/object-schema@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@eslint/object-schema/-/object-schema-3.0.2.tgz#c59c6a94aa4b428ed7f1615b6a4495c0a21f7a22"
+"@eslint/object-schema@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@eslint/object-schema/-/object-schema-3.0.3.tgz#5bf671e52e382e4adc47a9906f2699374637db6b"
 
-"@eslint/plugin-kit@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@eslint/plugin-kit/-/plugin-kit-0.6.0.tgz#e0cb12ec66719cb2211ad36499fb516f2a63899d"
+"@eslint/plugin-kit@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@eslint/plugin-kit/-/plugin-kit-0.6.1.tgz#eb9e6689b56ce8bc1855bb33090e63f3fc115e8e"
   dependencies:
-    "@eslint/core" "^1.1.0"
+    "@eslint/core" "^1.1.1"
     levn "^0.4.1"
 
 "@humanfs/core@^0.19.1":
@@ -584,9 +584,9 @@ eslint-config-prettier@^10.1.8:
   version "10.1.8"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-10.1.8.tgz#15734ce4af8c2778cc32f0b01b37b0b5cd1ecb97"
 
-eslint-scope@^9.1.1:
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-9.1.1.tgz#f6a209486e38bd28356b5feb07d445cc99c89967"
+eslint-scope@^9.1.2:
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-9.1.2.tgz#b9de6ace2fab1cff24d2e58d85b74c8fcea39802"
   dependencies:
     "@types/esrecurse" "^4.3.1"
     "@types/estree" "^1.0.8"
@@ -601,16 +601,16 @@ eslint-visitor-keys@^5.0.0, eslint-visitor-keys@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-5.0.1.tgz#9e3c9489697824d2d4ce3a8ad12628f91e9f59be"
 
-eslint@^10.0.2:
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-10.0.2.tgz#1009263467591810320f2e1ad52b8a750d1acbab"
+eslint@^10.0.3:
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-10.0.3.tgz#360a7de7f2706eb8a32caa17ca983f0089efe694"
   dependencies:
     "@eslint-community/eslint-utils" "^4.8.0"
     "@eslint-community/regexpp" "^4.12.2"
-    "@eslint/config-array" "^0.23.2"
+    "@eslint/config-array" "^0.23.3"
     "@eslint/config-helpers" "^0.5.2"
-    "@eslint/core" "^1.1.0"
-    "@eslint/plugin-kit" "^0.6.0"
+    "@eslint/core" "^1.1.1"
+    "@eslint/plugin-kit" "^0.6.1"
     "@humanfs/node" "^0.16.6"
     "@humanwhocodes/module-importer" "^1.0.1"
     "@humanwhocodes/retry" "^0.4.2"
@@ -619,7 +619,7 @@ eslint@^10.0.2:
     cross-spawn "^7.0.6"
     debug "^4.3.2"
     escape-string-regexp "^4.0.0"
-    eslint-scope "^9.1.1"
+    eslint-scope "^9.1.2"
     eslint-visitor-keys "^5.0.1"
     espree "^11.1.1"
     esquery "^1.7.0"
@@ -632,7 +632,7 @@ eslint@^10.0.2:
     imurmurhash "^0.1.4"
     is-glob "^4.0.0"
     json-stable-stringify-without-jsonify "^1.0.1"
-    minimatch "^10.2.1"
+    minimatch "^10.2.4"
     natural-compare "^1.4.0"
     optionator "^0.9.3"
 
@@ -1016,7 +1016,7 @@ mime-types@^3.0.0, mime-types@^3.0.1:
   dependencies:
     mime-db "^1.54.0"
 
-minimatch@^10.2.1, minimatch@^10.2.2:
+minimatch@^10.2.2, minimatch@^10.2.4:
   version "10.2.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.2.4.tgz#465b3accbd0218b8281f5301e27cedc697f96fde"
   dependencies:
