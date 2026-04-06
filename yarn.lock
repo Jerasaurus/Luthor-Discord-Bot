@@ -542,9 +542,9 @@ discord.js@^14.26.2:
     tslib "^2.6.3"
     undici "6.24.1"
 
-dotenv@^17.4.0:
-  version "17.4.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-17.4.0.tgz#9a5de24d7112a889b4b179ffbe83933298c41d37"
+dotenv@^17.4.1:
+  version "17.4.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-17.4.1.tgz#d8e2179fe287365ef3aecb9459668454168eda88"
 
 dunder-proto@^1.0.1:
   version "1.0.1"
