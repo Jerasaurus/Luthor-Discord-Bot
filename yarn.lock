@@ -1131,9 +1131,9 @@ p-locate@^5.0.0:
   dependencies:
     p-limit "^3.0.2"
 
-parse-duration@^2.1.5:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/parse-duration/-/parse-duration-2.1.5.tgz#968d15cce6931051568cb40445389299ecf00133"
+parse-duration@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/parse-duration/-/parse-duration-2.1.6.tgz#0706b952e20623114facb81e51b1a9df6cfa6e02"
 
 parse-ms@^4.0.0:
   version "4.0.0"
