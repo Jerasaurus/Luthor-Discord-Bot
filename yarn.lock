@@ -948,9 +948,9 @@ json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz"
 
-kareem@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/kareem/-/kareem-3.2.0.tgz#8f69b25f9ceac80e9bc46b391008da7fc93d4ab0"
+kareem@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/kareem/-/kareem-3.3.0.tgz#174048bd00e2b4a8fc2504f0f53c315b806894da"
 
 keyv@^4.5.4:
   version "4.5.4"
@@ -1041,11 +1041,11 @@ mongodb@~7.1:
     bson "^7.1.1"
     mongodb-connection-string-url "^7.0.0"
 
-mongoose@^9.4.1:
-  version "9.4.1"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-9.4.1.tgz#a329c6b99c417bdc3be7cab32fad840051a1b7b0"
+mongoose@^9.5.0:
+  version "9.5.0"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-9.5.0.tgz#180458f89977ebdf33652deabb6c127373b25ca1"
   dependencies:
-    kareem "3.2.0"
+    kareem "3.3.0"
     mongodb "~7.1"
     mpath "0.9.0"
     mquery "6.0.0"
