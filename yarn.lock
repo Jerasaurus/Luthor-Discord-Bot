@@ -173,6 +173,10 @@
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/@sapphire/snowflake/-/snowflake-3.5.5.tgz#33a60ab4231e3cab29e8a0077f342125f2c8d1bd"
 
+"@standard-schema/spec@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@standard-schema/spec/-/spec-1.1.0.tgz#a79b55dbaf8604812f52d140b2c9ab41bc150bb8"
+
 "@types/body-parser@*":
   version "1.19.2"
   resolved "https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.2.tgz"
@@ -1041,10 +1045,11 @@ mongodb@~7.2:
     bson "^7.2.0"
     mongodb-connection-string-url "^7.0.0"
 
-mongoose@^9.7.2:
-  version "9.7.2"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-9.7.2.tgz#d4cd0c2d51b9a86fd17ede94e9bf98999132573e"
+mongoose@^9.7.3:
+  version "9.7.3"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-9.7.3.tgz#df005bdb25a0ada692f334670ab479ccdd6f5767"
   dependencies:
+    "@standard-schema/spec" "^1.1.0"
     kareem "3.3.0"
     mongodb "~7.2"
     mpath "0.9.0"
