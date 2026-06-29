@@ -1177,9 +1177,9 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
 
-prettier@^3.8.4:
-  version "3.8.4"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.8.4.tgz#f334f013ac04a96676f24dabc23c1c4ae1bae411"
+prettier@^3.9.3:
+  version "3.9.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.3.tgz#4caabe6fb955e8b8f13319f25872522ece519534"
 
 pretty-ms@^9.3.0:
   version "9.3.0"
