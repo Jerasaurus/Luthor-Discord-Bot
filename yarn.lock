@@ -32,19 +32,19 @@
   dependencies:
     discord-api-types "^0.38.33"
 
-"@discordjs/rest@^2.5.1", "@discordjs/rest@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@discordjs/rest/-/rest-2.6.1.tgz#53f88b5b150392e325c85d32a3ad894e9d839380"
+"@discordjs/rest@^2.5.1", "@discordjs/rest@^2.6.1", "@discordjs/rest@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@discordjs/rest/-/rest-2.6.2.tgz#6ca9736a4164027a5bc9041bc9735d27b5ce8f99"
   dependencies:
     "@discordjs/collection" "^2.1.1"
     "@discordjs/util" "^1.2.0"
     "@sapphire/async-queue" "^1.5.3"
     "@sapphire/snowflake" "^3.5.5"
     "@vladfrangu/async_event_emitter" "^2.4.6"
-    discord-api-types "^0.38.40"
+    discord-api-types "^0.38.49"
     magic-bytes.js "^1.13.0"
     tslib "^2.6.3"
-    undici "6.24.1"
+    undici "^6.27.0"
 
 "@discordjs/util@^1.1.0", "@discordjs/util@^1.2.0":
   version "1.2.0"
@@ -1441,6 +1441,10 @@ undici-types@~8.3.0:
 undici@6.24.1:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/undici/-/undici-6.24.1.tgz#9df1425cede20b836d95634347946f79578b7e71"
+
+undici@^6.27.0:
+  version "6.27.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-6.27.0.tgz#41f9e48f7c5a40d27376caaead8c9a9fc7bca9c4"
 
 unpipe@~1.0.0:
   version "1.0.0"
