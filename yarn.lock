@@ -32,7 +32,7 @@
   dependencies:
     discord-api-types "^0.38.33"
 
-"@discordjs/rest@^2.5.1", "@discordjs/rest@^2.6.1", "@discordjs/rest@^2.6.2":
+"@discordjs/rest@^2.5.1", "@discordjs/rest@^2.6.2":
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/@discordjs/rest/-/rest-2.6.2.tgz#6ca9736a4164027a5bc9041bc9735d27b5ce8f99"
   dependencies:
@@ -165,11 +165,7 @@
     fast-deep-equal "^3.1.3"
     lodash "^4.17.21"
 
-"@sapphire/snowflake@3.5.3":
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/@sapphire/snowflake/-/snowflake-3.5.3.tgz#0c102aa2ec5b34f806e9bc8625fc6a5e1d0a0c6a"
-
-"@sapphire/snowflake@^3.5.5":
+"@sapphire/snowflake@3.5.5", "@sapphire/snowflake@^3.5.5":
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/@sapphire/snowflake/-/snowflake-3.5.5.tgz#33a60ab4231e3cab29e8a0077f342125f2c8d1bd"
 
@@ -524,27 +520,27 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-discord-api-types@^0.38.1, discord-api-types@^0.38.33, discord-api-types@^0.38.40, discord-api-types@^0.38.48, discord-api-types@^0.38.50:
+discord-api-types@^0.38.1, discord-api-types@^0.38.33, discord-api-types@^0.38.40, discord-api-types@^0.38.49, discord-api-types@^0.38.50:
   version "0.38.50"
   resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.50.tgz#0a4fbc2903aafab6a92a67a7ec2ad62133c24ab6"
 
-discord.js@^14.26.5:
-  version "14.26.5"
-  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-14.26.5.tgz#432792f618eca2f0936439808ade24ee8182f6aa"
+discord.js@^14.27.0:
+  version "14.27.0"
+  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-14.27.0.tgz#ef897a352a5d0ba476061e2a552188665e6e2951"
   dependencies:
     "@discordjs/builders" "^1.14.1"
     "@discordjs/collection" "1.5.3"
     "@discordjs/formatters" "^0.6.2"
-    "@discordjs/rest" "^2.6.1"
+    "@discordjs/rest" "^2.6.2"
     "@discordjs/util" "^1.2.0"
     "@discordjs/ws" "^1.2.3"
-    "@sapphire/snowflake" "3.5.3"
-    discord-api-types "^0.38.48"
+    "@sapphire/snowflake" "3.5.5"
+    discord-api-types "^0.38.49"
     fast-deep-equal "3.1.3"
     lodash.snakecase "4.1.1"
     magic-bytes.js "^1.13.0"
     tslib "^2.6.3"
-    undici "6.24.1"
+    undici "^6.27.0"
 
 dotenv@^17.4.2:
   version "17.4.2"
@@ -1437,10 +1433,6 @@ typescript@^6.0.3:
 undici-types@~8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-8.3.0.tgz#44e9fc9f3244648cdea35e4f9bb2d681e9410809"
-
-undici@6.24.1:
-  version "6.24.1"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-6.24.1.tgz#9df1425cede20b836d95634347946f79578b7e71"
 
 undici@^6.27.0:
   version "6.27.0"
