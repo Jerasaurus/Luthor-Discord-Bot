@@ -37,7 +37,7 @@
     "@typescript-eslint/parser": "^8.65.0",
     "eslint": "^10.7.0",
     "eslint-config-prettier": "^10.1.8",
-    "prettier": "^3.9.5",
+    "prettier": "^3.9.6",
     "tsc-alias": "^1.9.1"
   }
 }
