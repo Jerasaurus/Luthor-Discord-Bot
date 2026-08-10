@@ -568,9 +568,9 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-discord-api-types@^0.38.1, discord-api-types@^0.38.33, discord-api-types@^0.38.40, discord-api-types@^0.38.49, discord-api-types@^0.38.50, discord-api-types@^0.38.52:
-  version "0.38.52"
-  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.52.tgz#73ea825743de5e9d98f26327d4825f403e5f9c48"
+discord-api-types@^0.38.1, discord-api-types@^0.38.33, discord-api-types@^0.38.40, discord-api-types@^0.38.49, discord-api-types@^0.38.50, discord-api-types@^0.38.53:
+  version "0.38.53"
+  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.53.tgz#74c0b9fa83d8b21d6c5ab3ee9c0d84d3b813d952"
 
 discord.js@^14.27.0:
   version "14.27.0"
