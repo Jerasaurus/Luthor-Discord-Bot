@@ -10,6 +10,9 @@ const headers = {
   "Content-Type": "application/json",
   Authorization: "Bearer " + client.config.openAIKey,
 };
+// sampling temperature for the emoji conversion: warm enough to be playful,
+// not so hot the output stops resembling the original message
+const TEMPERATURE = 0.8;
 let cooldowns: any = [];
 const Webhooks: any = [];
 export default class emojiOnly implements Module {
@@ -50,7 +53,7 @@ export default class emojiOnly implements Module {
           prompt:
             "Convert the following text into emoji only text.\n" +
             message.content,
-          temperature: 0.7,
+          temperature: TEMPERATURE,
           max_tokens: 256,
           top_p: 0.3,
           frequency_penalty: 0.5,
