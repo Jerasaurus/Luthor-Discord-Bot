@@ -1464,9 +1464,9 @@ ts-mixer@^6.0.4:
   version "6.0.4"
   resolved "https://registry.yarnpkg.com/ts-mixer/-/ts-mixer-6.0.4.tgz#1da39ceabc09d947a82140d9f09db0f84919ca28"
 
-tsc-alias@^1.9.4:
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/tsc-alias/-/tsc-alias-1.9.4.tgz#bbdba0406a8b6549596c34abb153bdf015a299fe"
+tsc-alias@^1.9.5:
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/tsc-alias/-/tsc-alias-1.9.5.tgz#7397c4f534ceb365ec7a4b62ca56eef46e052e5b"
   dependencies:
     chokidar "^3.5.3"
     commander "^9.0.0"
