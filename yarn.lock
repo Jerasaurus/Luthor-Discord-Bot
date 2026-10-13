@@ -1102,9 +1102,9 @@ mongodb@~7.7:
     bson "^7.3.2"
     mongodb-connection-string-url "^7.0.2"
 
-mongoose@^9.11.0:
-  version "9.11.0"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-9.11.0.tgz#f9517607b010747c54bc8c4054cd0f6cad1e879a"
+mongoose@^9.11.1:
+  version "9.11.1"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-9.11.1.tgz#1d21eff376d0b00c44aa4201d933e762f13c56b7"
   dependencies:
     "@standard-schema/spec" "^1.1.0"
     kareem "3.4.0"
